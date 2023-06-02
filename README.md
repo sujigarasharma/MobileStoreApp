@@ -3,24 +3,35 @@ Mobile Store Application with Java Swing, AWT, and Database Connection
 
 # FUNCTIONALITIES
 Home Frame:
+
   •	Provides options for admin login or customer login.
+
 Admin Login Frame:
+
   •	Requires username and password for admin authentication.
+
 Customer Login Frame:
+
   •	Requires username and password for customer authentication.
   •	Provides a registration form for new customers to create an account.
   •	Registration form includes fields for email, name, password, and gender.
   •	Stores customer details in the user table of the SSMobiles database.
+
 Admin Panel Window:
+
   •	Displays options for managing mobile phone details.
   •	Add Mobile Phone: Allows the admin to add new mobile phone details.
   •	Fields include IMEI, model, price, and quantity.
   •	Stores the details in the stoke table of the SSMobiles database.
   •	View Sales: Allows the admin to view the sale details from the sales table.
+
 Customer Panel Window:
+
   •	Displays available mobile phone models, prices, and a selection option for purchasing products.
   •	Lists the mobile phones from the stoke table of the SSMobiles database.
+
 Product Purchase:
+
   •	When a customer selects a product, prompts for payment using UPI ID.
   •	After entering the payment details, the following information is stored in the sale table of the SSMobiles database:
       user, model, amount, and UPI number.
